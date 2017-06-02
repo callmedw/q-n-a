@@ -1,9 +1,14 @@
-{{#link-to 'question' question.id}}
-  {{question.topic}}
-{{/link-to}}
-{{question.date}}
-{{question.author}}
-{{question.topic}}
-{{question.content}}
-{{question.notes}}
-{{#link-to 'question' question.id}}See Answers{{/link-to}}
+
+<div class="answer-tile">
+  <div class="q-content">
+    {{#link-to 'question' question.id}}"{{question.topic}}"{{/link-to}}
+    <br>
+    asked by: {{question.author}}
+    <br>
+    {{question.date}}
+    <br>
+    Q: {{question.content}}
+    <br>
+    {{question.notes}}
+  </div>
+</div>
