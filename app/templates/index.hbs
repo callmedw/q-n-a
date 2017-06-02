@@ -1,6 +1,8 @@
-{{#each model.questions as |question|}}
-  {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
-  <br>
-{{/each}}
+<div class="tile">
+  {{#each model.questions as |question|}}
+      {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
+      <p> <span class="symbol">&#9098;</span>   <span class="symbol">&#9098;</span>   <span class="symbol">&#9098;</span>   <span class="symbol">&#9098;</span>   <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span> <span class="symbol">&#9098;</span>  </p>
+  {{/each}}
 
-{{new-question saveQuestion="saveQuestion"}}
+  {{new-question saveQuestion="saveQuestion"}}
+</div>

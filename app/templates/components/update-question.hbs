@@ -1,6 +1,6 @@
 {{#if updateQuestionForm}}
-  <h2>update Q</h2>
-  <div>
+  <div class="tile">
+    <h2>update Q</h2>
     <form>
       <div class="form-group">
         <label for="date">date:</label>
@@ -16,16 +16,19 @@
       </div>
       <div class="form-group">
         <label for="content">content:</label>
-        {{input value=content id="content" placeholder=question.content}}
+        {{textarea input value=content id="content" placeholder=question.content}}
       </div>
       <div class="form-group">
         <label for="notes">notes:</label>
         {{input value=notes id="notes" placeholder=question.notes}}
       </div>
-
-      <a href="newPage.htm" {{action 'update' question}}>update this Q</a>
+      <div class="tile">
+        <a href="newPage.htm" {{action 'update' question}}>update <br> this <br> Q</a>
+      </div>
     </form>
   </div>
 {{else}}
-  <a href="newPage.htm" {{action 'updateQuestionForm'}}>update this Q</a>
+  <div class="tile">
+    <a href="newPage.htm" {{action 'updateQuestionForm'}}>update <br> this <br> Q</a>
+  </div>
 {{/if}}

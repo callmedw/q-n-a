@@ -1,11 +1,15 @@
 <nav class="navbar">
   <div class="container-fluid">
     <div class="navbar-header">
-      {{#link-to 'index' class="navbar-brand"}}q & a{{/link-to}}
+      {{#link-to 'index' class="navbar-brand"}}q <br><br> & <br><br> a{{/link-to}}
     </div>
   </div>
 </nav>
 <div class="jumbotron">
-  <h1> Q 	&#9098; & &#9098; A </h1>
+  <h1> Q <span class="symbol">&#9098;</span> & <span class="symbol">&#9098;</span> A </h1>
+  <hr>
+  <br>
 </div>
-{{outlet}}
+<div class="container">
+  {{outlet}}
+</div>
