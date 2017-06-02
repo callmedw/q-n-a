@@ -1,1 +1,12 @@
-{{yield}}
+{{question.date}}
+{{question.author}}
+{{question.topic}}
+{{question.content}}
+{{question.notes}}
+{{update-question question=question update="update"}}
+
+<p>Answers</p>
+
+{{#each question.answers as |answer|}}
+  {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+{{/each}}
