@@ -1,0 +1,24 @@
+{ "questions": [{
+    "date": "06/02/2017",
+    "author": "Test Case",
+    "content": "Why, ember, why?",
+    "notes": "blah blah"
+  }, {
+    "date": "06/02/2017",
+    "author": "Head Case",
+    "content": "When does rails start, again?",
+    "notes": "blah blah blah"
+  }, {
+    "date": "06/02/2017",
+    "author": "Faith Case",
+    "content": "What time is it?",
+    "notes": "blah blah blah blah"
+  }],
+  "answers": [{
+    "author": "Tech Case",
+    "content": "you'll understand someday"
+  }, {
+    "author": "Brain Case",
+    "content": "sometimes there are no answers"
+  }]
+}
