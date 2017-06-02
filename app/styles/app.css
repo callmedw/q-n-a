@@ -81,8 +81,7 @@ h2 {
   font-weight: bold;
 }
 
-q-content {
-  border: 2px solid;
-  border-color: #fff3b4;
-  border-radius: 25px;
+.question-content {
+  border: 1px solid #fff3b4;
+  max width: 10%;
 }

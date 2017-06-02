@@ -1,14 +1,14 @@
 
 <div class="tile">
-  <div class="q-content">
-    {{#link-to 'question' question.id}}"{{question.topic}}"{{/link-to}}
-    <br>
-    asked by: {{question.author}}
-    <br>
-    {{question.date}}
-    <br>
-    Q: {{question.content}}
-    <br>
-    {{question.notes}}
-  </div>
+  {{#link-to 'question' question.id}}"{{question.topic}}"{{/link-to}}
+  <br>
+    <div class="question-content">
+      asked by: {{question.author}}
+      <br>
+      {{question.date}}
+      <br>
+      Q: {{question.content}}
+      <br>
+      notes: {{question.notes}}
+    </div>
 </div>
