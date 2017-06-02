@@ -1,0 +1,17 @@
+{
+  "name": "q-n-a",
+  "description": "Small description for q-n-a goes here",
+  "main": "",
+  "authors": [
+    "Dana Weiss <mynameisdanaweiss@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

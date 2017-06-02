@@ -1,7 +1,22 @@
 # q-n-a
+![screenshot](public/img/screen_shot.png)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application will allow users to post questions and receive answers to those questions from other users.
+
+### User Stories
+
+As a user, I want to post a question.
+As a user, I want view questions already asked.
+As a user, I want answer questions that have been posted.
+As a user, I want to see the answers to questions that have been asked.
+
+
+## Specifications
+
+| Behavior | Input | Output |
+|----------|:-----:|:------:|
+| see posted questions  | user navigates to home page | recent questions are listed on the homepage |
+| post a question | user clicks post a question and types a
 
 ## Prerequisites
 
@@ -37,10 +52,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -48,3 +59,18 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Known Bugs
+*
+
+## Authors
+
+Dana Weiss
+
+## License
+
+*open source GPL & MIT*
+
+```
+Copyright (c) 2017 **Dana Weiss**
+```
